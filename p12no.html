@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KawanKopi</title>
+    <style>
+      body {
+        font-family: "Arial", sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f7f3e9;
+      }
+      header {
+        background-color: #6b4226;
+        color: white;
+        text-align: center;
+        padding: 15px 0;
+      }
+      nav {
+        display: flex;
+        justify-content: space-around;
+        background-color: #8c5b37;
+        padding: 10px;
+      }
+      nav a {
+        color: white;
+        text-decoration: none;
+      }
+      /* .menu {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        margin: 20px;
+      }
+      .menu-item {
+        background-color: white;
+        border: 1px solid #ddd;
+        padding: 15px;
+        text-align: center;
+        width: 200px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      } */
+      .menu-item img {
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>KawanKopi</h1>
+    </header>
+    <nav>
+      <a href="#">Menu</a>
+      <a href="#">Locations</a>
+      <a href="#">Contact</a>
+    </nav>
+    <section class="menu">
+      <div class="menu-item">
+        <img src="img/espresso.jpg" alt="Coffee" />
+        <h3>Espresso</h3>
+        <p>
+          Espresso adalah salah satu minuman kopi paling ikonik di dunia kopi,
+          dikenal karena rasa kopinya yang kuat, konsentrasi yang tinggi, serta
+          lapisan crema yang khas di atasnya.
+        </p>
+      </div>
+      <div class="menu-item">
+        <img src="img/capucino.jpg" alt="Coffee" />
+        <h3>Cappuccino</h3>
+        <p>
+          Kopi Cappuccino adalah minuman khas Italia yang terdiri dari 1/3
+          espresso, 1/3 susu steamed, dan 1/3 buih susu.
+        </p>
+      </div>
+      <div class="menu-item">
+        <img src="img/6a86c387495a30851e5843a582c7b6f2.jpg" alt="Coffee" />
+        <h3>Latte</h3>
+        <p>
+          Caffé latte atau kopi latte adalah campuran 1/3 espresso dengan 2/3
+          steamed milk. Buih susu hanya tipis di permukaan.
+        </p>
+      </div>
+    </section>
+  </body>
+</html>
+
+Tanpa Flexbox .menu { display: block; } .menu-item { margin-bottom: 20px;
+text-align: center; }
