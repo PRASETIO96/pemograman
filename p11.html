@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulir Pemesanan Kopi</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="input.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form class="coffee-order-form">
+        <h2>Formulir Pemesanan Kopi</h2>
+
+        <label for="name" class="form-label">Nama Pelanggan:</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          
+          placeholder="Masukkan nama Anda"
+          required
+        />
+
+        <label for="coffee-type" class="form-label">Pilih Jenis Kopi:</label>
+        <select id="coffee-type" name="coffee-type" required>
+          <option value="latte">Latte</option>
+          <option value="espresso">Espresso</option>
+          <option value="cappuccino">Cappuccino</option>
+          <option value="americano">Americano</option>
+        </select>
+
+        <label class="form-label">Tambahan:</label>
+        <div class="checkbox-group">
+          <label
+            ><input type="checkbox" name="sugar" value="sugar" /> Gula</label
+          >
+          <label><input type="checkbox" name="milk" value="milk" /> Susu</label>
+          <label
+            ><input
+              type="checkbox"
+              name="whipped-cream"
+              value="whipped-cream"
+            />
+            Whipped Cream</label
+          >
+        </div>
+
+        <label for="notes" class="form-label">Catatan Tambahan:</label>
+        <textarea
+          id="notes"
+          name="notes"
+          rows="4"
+          placeholder="Tuliskan catatan tambahan jika ada"
+        ></textarea>
+
+        <button type="submit" class="submit-btn">Pesan Sekarang</button>
+      </form>
+    </div>
+  </body>
+</html>
