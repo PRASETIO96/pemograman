@@ -1,0 +1,35 @@
+body {
+  background-color: chocolate;
+  text-align: center;
+  font-family: Georgia, serif;
+  font-size: 18px;
+  background-size: cover;
+}
+
+.kartu {
+  background-color: #c0a16b;
+  border: 2px color(#8b5e34);
+  border-radius: 15px;
+  display: inline-block;
+  height: 470px;
+  width: 310px;
+  margin-top: 60px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+.img {
+  border-radius: 100%;
+  margin-top: 60px;
+  width: 132px;
+  height: 128px;
+}
+
+.name {
+  color: #3e2c1c;
+}
+.tittle {
+  color: #3e2c1c;
+}
+.table {
+  color: #3e2c1c;
+}
